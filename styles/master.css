@@ -1,0 +1,68 @@
+html,body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 10px;
+
+}
+
+.content{
+margin: 0 !important;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+a:hover{
+  border-bottom-color: #000;
+}
+
+.yeet-centered{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* This recenters the content  */
+  transform: translate(-50%, -50%);
+}
+
+.yeet-top{
+  position: fixed;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+
+.yeet-one{
+  position: fixed;
+  top: 50%;
+  left: 40px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) translate(-50%, 0);
+}
+
+.yeet-two{
+  position:fixed;
+  top: 50%;
+  right: 40px;
+  transform-origin: 100% 0;
+  transform: rotate(90deg) translate(50%,0);
+}
+
+.yeet-three{
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: rotate(180deg) translate(50%,0);
+}
+
+.yeet-title{
+
+}
