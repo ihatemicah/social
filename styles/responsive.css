@@ -1,0 +1,44 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.yeet-top, .yeet-one , .yeet-two, .yeet-three{
+  font-size: 2rem;
+}
+
+.yeet-title {
+  font-size: 3rem;
+}
+
+.yeet-description{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.desktop-break{
+  display:none;
+}
+
+.yeet-centered{
+  width: 60%;
+}
+
+.yeet-input {
+  font-size: 2rem;
+  width: 100%;
+  
+}
+
+.yeet-button{
+  font-size: 2rem;
+  width: 100%;
+}
+
+.yeet-social{
+  margin: 2% 0 0 0;
+  font-size: 4rem;
+}
+
+
+
+}
